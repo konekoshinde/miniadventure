@@ -28,7 +28,7 @@ class player:public character{
         this->hp=1;
     }
     void increase_hp(){
-        this->hp+=50;
+        this->hp+=10;
         this->hp=min(this->hp,100);
         
     }
